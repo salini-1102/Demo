@@ -56,7 +56,7 @@ public class Listenerclass implements ITestListener {
 	public void onStart(ITestContext context) {
 		
 		//to provide path of the report
-		ExtentSparkReporter esr = new ExtentSparkReporter(".\\Extent Report\\"+1+".html");
+		ExtentSparkReporter esr = new ExtentSparkReporter(".\\Extent Report\\"+2+".html");
 		
 		//to provide title to the report
 		
